@@ -1,0 +1,154 @@
+body {
+/*   background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%); */
+  height: 700px;
+}
+
+.btn-secondary {
+  background-color: #F00078;
+  border-color: #F00078;
+}
+
+.btn-secondary:hover {
+  background-color: #BF0060;
+  border-color:	#BF0060;
+}
+
+.main-title {
+  font-weight: bold;
+  padding-left: 15px;
+  padding-top: 15px;
+  color: 	#820041;
+}
+
+
+.panel {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card {
+  border: #FF0080 solid 2px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.name {
+  text-align: center;
+  font-weight: bold;
+}
+
+.avatar {
+  transition: opacity 0.5s ease;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#submit-search:hover {
+  background-color: #BF0060;
+  border-color:	#BF0060;
+}
+.avatar:hover {
+  opacity: 0.4;
+}
+
+.modal-title {
+  font-weight: bold;
+  color: #820041;
+}
+.modal-body p {
+  line-height: 5px;
+  color: #BF0060;
+}
+
+.addHeart {
+  position: absolute;
+/*   z-index: 2; */
+  padding-top: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.origin-heart {
+  color: pink;
+}
+
+.select-heart {
+  color: red
+}
+
+
+#submit-search {
+  background-color: #F00078;
+  border-color: #F00078;
+}
+
+.modal-body {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.modal-avatar-section {
+  display: flex;
+  justify-content: center;
+}
+.modal-info {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.modal-avatar {
+  margin: 10px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.page-link {
+  color: 	#FF0080;
+}
+
+.modal-content {
+  background-color: rgba(255, 217, 236, 0.9);
+}
+
+
+
+#search-bar {
+  padding-left: 30px;
+}
+
+.headbar {
+  display: flex;
+  justify-content: Space-between;
+  margin-bottom: 15px;
+}
+
+.btn-group {
+  height: 40px;
+  padding-right: 70px;
+}
+
+btn-secondary:active {
+  background: black;
+}
+
+.head-title {
+  align-items: center;
+  margin-left: 1px;
+  margin-bottom: 20px;
+}
+
+.fa-home {
+  margin-left: 8px;
+  color: #BF0060;
+  cursor: pointer;
+}
+
+.fa-home:hover {
+  color: 	#6C6C6C;
+}
+

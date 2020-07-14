@@ -1,0 +1,63 @@
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="head-title row">
+      <h2 class="main-title">New Friends</h2>
+      <i class="fa fa-home fa-2x" id="home-icon" aria-hidden="true"></i>
+    </div>
+    <!--     search bar-->
+    <div class="headbar">
+      <div class="row justify-content-between" id="search-bar">
+        <form id="search" class="form-inline">
+          <label class="sr-only" for="inlineFormInputName2">Name</label>
+          <select class="custom-select select-search-type mr-sm-2" id="search-select">
+            <option value="1">Name</option>
+            <option value="2">Region</option>
+          </select>
+          <input type="text" class="form-control mb-2 mr-sm-2" placeholder="search name or region..." id="search-input">
+          <button type="submit" class="btn btn-primary mb-2" id="submit-search">Search</button>
+        </form>
+      </div>
+      <!--   filter -->
+      <div class="btn-group" id="filter" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-secondary all">all</button>
+        <button type="button" class="btn btn-secondary mars">
+          <i class="fa fa-mars fa-lg btn-gender-male" aria-hidden="true"></i> Male
+        </button>
+        <button type="button" class="btn btn-secondary venus">
+          <i class="fa fa-venus fa-lg btn-gender-female" aria-hidden="true"></i> Female
+        </button>
+        <button type="button" class="btn btn-secondary heart">
+          <i class="fa fa-heart" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+    <!--   panel -->
+    <div class="panel" id="data-panel">
+
+      <!--     madal -->
+
+    </div>
+    <nav aria-label="Page navigation">
+      <ul class="pagination  justify-content-center" id="pagination">
+        <li class="page-item">
+          <a class="page-link" href="#">1</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
